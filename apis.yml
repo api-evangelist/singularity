@@ -1,7 +1,30 @@
 aid: singularity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/singularity.png
 name: Singularity
-description: Singularity is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Singularity (Singularity Defense Corp) is a defense-technology company building
+  low-cost, mass-producible air-defense and counter-weapon systems to protect
+  warfighters and civilians from drones and cheap aerial munitions. Founded by
+  engineers from SpaceX, Tesla, and Anduril alongside operators who have deployed
+  air defenses in combat, the company emerged from stealth in July 2026 with an $80M
+  Series A at a $400M valuation led by Khosla Ventures and Felicis, with Menlo
+  Ventures, NEA, Y Combinator, Harpoon Ventures, and others participating. It
+  emphasizes in-house manufacturing of major subsystems combined with commercial-volume
+  components for rapid production and field deployment, including active conflict zones.
+  Singularity is a hardware defense company and does not publish a public API, developer
+  portal, or SDKs. This profile was surfaced as a Menlo Ventures portfolio lead and
+  enriched with verified company identity by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/singularity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Air Defense
+- Aerospace
+- Counter-UAS
+- National Security
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/singularity-domain-security.yml
 - type: Website
-  url: https://linkedin
+  url: https://www.singularityus.com/
+- type: About
+  url: https://www.singularityus.com/company
+- type: Careers
+  url: https://www.singularityus.com/careers
+- type: Newsroom
+  url: https://www.singularityus.com/newsroom
+- type: LinkedIn
+  url: https://www.linkedin.com/company/singularity-defense/
+- type: Twitter
+  url: https://x.com/singularitydefc
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
