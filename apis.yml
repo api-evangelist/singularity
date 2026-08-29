@@ -37,6 +37,9 @@ description: >-
   portal, or SDKs. This profile was surfaced as a Menlo Ventures portfolio lead and
   enriched with verified company identity by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/singularity/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Singularity is a hardware defense company and does not publish a public API, developer portal, or SDKs."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
