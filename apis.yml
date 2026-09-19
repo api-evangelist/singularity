@@ -23,23 +23,20 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/singularity.png
 name: Singularity
-description: >-
-  Singularity (Singularity Defense Corp) is a defense-technology company building
-  low-cost, mass-producible air-defense and counter-weapon systems to protect
-  warfighters and civilians from drones and cheap aerial munitions. Founded by
-  engineers from SpaceX, Tesla, and Anduril alongside operators who have deployed
-  air defenses in combat, the company emerged from stealth in July 2026 with an $80M
-  Series A at a $400M valuation led by Khosla Ventures and Felicis, with Menlo
-  Ventures, NEA, Y Combinator, Harpoon Ventures, and others participating. It
-  emphasizes in-house manufacturing of major subsystems combined with commercial-volume
-  components for rapid production and field deployment, including active conflict zones.
-  Singularity is a hardware defense company and does not publish a public API, developer
-  portal, or SDKs. This profile was surfaced as a Menlo Ventures portfolio lead and
-  enriched with verified company identity by the API Evangelist pipeline.
+description: Singularity (Singularity Defense Corp) is a defense-technology company building low-cost, mass-producible
+  air-defense and counter-weapon systems to protect warfighters and civilians from drones and cheap aerial munitions.
+  Founded by engineers from SpaceX, Tesla, and Anduril alongside operators who have deployed air defenses in combat,
+  the company emerged from stealth in July 2026 with an $80M Series A at a $400M valuation led by Khosla Ventures
+  and Felicis, with Menlo Ventures, NEA, Y Combinator, Harpoon Ventures, and others participating. It emphasizes
+  in-house manufacturing of major subsystems combined with commercial-volume components for rapid production and
+  field deployment, including active conflict zones. Singularity is a hardware defense company and does not publish
+  a public API, developer portal, or SDKs. This profile was surfaced as a Menlo Ventures portfolio lead and enriched
+  with verified company identity by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/singularity/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
-x-api-posture-note: "Singularity is a hardware defense company and does not publish a public API, developer portal, or SDKs."
+x-api-posture-note: Singularity is a hardware defense company and does not publish a public API, developer portal,
+  or SDKs.
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -78,6 +75,8 @@ common:
   url: https://www.linkedin.com/company/singularity-defense/
 - type: Twitter
   url: https://x.com/singularitydefc
+- type: Website
+  url: https://singularityus.com
 x-enrichment:
   date: '2026-07-21'
   status: minimal
